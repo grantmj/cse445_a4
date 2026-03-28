@@ -18,130 +18,129 @@
     </Address>
   </NationalPark>
 
-  <NationalPark Rating="5 Stars">
-    <!-- ERROR 5: Two Name elements (only one allowed) -->
-    <Name>Yellowstone National Park</Name>
-    <Name>Yellowstone Park</Name>
-    <Phone>307-344-7381</Phone>
-    <Phone>307-344-2002</Phone>
-    <Address NearestAirport="Bozeman Yellowstone International Airport">
-      <Number>2</Number>
-      <Street>Officers Row</Street>
-      <City>Yellowstone National Park</City>
-      <State>WY</State>
-      <Zip>82190</Zip>
+  <NationalPark Rating="4.7">
+    <!-- ERROR 5: Two Name elements -->
+    <Name>Denali National Park</Name>
+    <Name>Denali Park</Name>
+    <Phone>907-683-9532</Phone>
+    <Address NearestAirport="Fairbanks International Airport">
+      <Number>1</Number>
+      <Street>Denali Park Road</Street>
+      <City>Denali Park</City>
+      <State>AK</State>
+      <Zip>99755</Zip>
     </Address>
   </NationalPark>
 
   <NationalPark>
-    <Name>Yosemite National Park</Name>
-    <!-- ERROR 3: Missing Phone element -->
-    <Address NearestAirport="Fresno Yosemite International Airport">
-      <Number>1</Number>
-      <Street>Ahwahnee Drive</Street>
-      <City>Yosemite Valley</City>
-      <State>CA</State>
-      <Zip>95389</Zip>
+    <Name>Everglades National Park</Name>
+    <Phone>305-242-7700</Phone>
+    <Phone>305-242-7740</Phone>
+    <Address NearestAirport="Miami International Airport">
+      <Number>40001</Number>
+      <Street>State Road 9336</Street>
+      <City>Homestead</City>
+      <State>FL</State>
+      <Zip>33034</Zip>
     </Address>
   </NationalPark>
 
-  <NationalPark Rating="4 Stars">
-    <Name>Zion National Park</Name>
-    <Phone>435-772-3256</Phone>
+  <NationalPark Rating="4.5">
+    <Name>Shenandoah National Park</Name>
+    <Phone>540-999-3500</Phone>
+    <Address NearestAirport="Charlottesville Albemarle Airport">
+      <Number>3655</Number>
+      <Street>US Highway 211 East</Street>
+      <City>Luray</City>
+      <State>VA</State>
+      <Zip>22835</Zip>
+    </Address>
+  </NationalPark>
+
+  <NationalPark>
+    <Name>Big Bend National Park</Name>
+    <!-- ERROR 3: Missing Phone element -->
+    <Address NearestAirport="Midland International Airport">
+      <Number>1</Number>
+      <Street>Panther Junction</Street>
+      <City>Big Bend National Park</City>
+      <State>TX</State>
+      <Zip>79834</Zip>
+    </Address>
+  </NationalPark>
+
+  <NationalPark>
+    <Name>Carlsbad Caverns National Park</Name>
+    <Phone>575-785-2232</Phone>
     <!-- ERROR 2: Missing required NearestAirport attribute -->
     <Address>
-      <Number>1</Number>
-      <Street>Zion Park Boulevard</Street>
-      <City>Springdale</City>
-      <State>UT</State>
-      <Zip>84767</Zip>
+      <Number>727</Number>
+      <Street>Carlsbad Caverns Highway</Street>
+      <City>Carlsbad</City>
+      <State>NM</State>
+      <Zip>88220</Zip>
     </Address>
   </NationalPark>
 
-  <NationalPark>
-    <Name>Rocky Mountain National Park</Name>
-    <Phone>970-586-1206</Phone>
-    <Phone>970-586-1333</Phone>
-    <Address NearestAirport="Denver International Airport">
-      <Number>1000</Number>
-      <Street>Highway 36</Street>
-      <City>Estes Park</City>
-      <State>CO</State>
-      <Zip>80517</Zip>
-    </Address>
-  </NationalPark>
-
-  <NationalPark Rating="5 Stars">
-    <Name>Glacier National Park</Name>
-    <Phone>406-888-7800</Phone>
+  <NationalPark Rating="4.8">
+    <Name>Crater Lake National Park</Name>
+    <Phone>541-594-3000</Phone>
     <!-- ERROR 4: Address element has no closing tag (malformed XML) -->
-    <Address NearestAirport="Glacier Park International Airport">
-      <Number>64</Number>
-      <Street>Grinnell Drive</Street>
-      <City>West Glacier</City>
-      <State>MT</State>
-      <Zip>59936</Zip>
-  </NationalPark>
-
-  <NationalPark>
-    <Name>Acadia National Park</Name>
-    <Phone>207-288-3338</Phone>
-    <Address NearestAirport="Bangor International Airport">
-      <Number>25</Number>
-      <Street>Visitor Center Road</Street>
-      <City>Bar Harbor</City>
-      <State>ME</State>
-      <Zip>4609</Zip>
-    </Address>
-  </NationalPark>
-
-  <NationalPark Rating="4 Stars">
-    <Name>Great Smoky Mountains National Park</Name>
-    <Phone>865-436-1200</Phone>
-    <Phone>865-436-1294</Phone>
-    <Address NearestAirport="McGhee Tyson Airport">
-      <Number>107</Number>
-      <Street>Park Headquarters Road</Street>
-      <City>Gatlinburg</City>
-      <State>TN</State>
-      <Zip>37738</Zip>
-    </Address>
-  </NationalPark>
-
-  <NationalPark>
-    <Name>Joshua Tree National Park</Name>
-    <Phone>760-367-5500</Phone>
-    <Address NearestAirport="Palm Springs International Airport">
-      <Number>74485</Number>
-      <Street>National Park Drive</Street>
-      <City>Twentynine Palms</City>
-      <State>CA</State>
-      <Zip>92277</Zip>
-    </Address>
-  </NationalPark>
-
-  <NationalPark Rating="5 Stars">
-    <Name>Bryce Canyon National Park</Name>
-    <Phone>435-834-5322</Phone>
-    <Address NearestAirport="St George Regional Airport">
+    <Address NearestAirport="Rogue Valley International Airport">
       <Number>1</Number>
-      <Street>Highway 63</Street>
-      <City>Bryce Canyon City</City>
-      <State>UT</State>
-      <Zip>84764</Zip>
+      <Street>Sager Building</Street>
+      <City>Crater Lake</City>
+      <State>OR</State>
+      <Zip>97604</Zip>
+  </NationalPark>
+
+  <NationalPark>
+    <Name>Badlands National Park</Name>
+    <Phone>605-433-5361</Phone>
+    <Phone>605-433-5460</Phone>
+    <Address NearestAirport="Rapid City Regional Airport">
+      <Number>25216</Number>
+      <Street>Ben Reifel Road</Street>
+      <City>Interior</City>
+      <State>SD</State>
+      <Zip>57750</Zip>
+    </Address>
+  </NationalPark>
+
+  <NationalPark Rating="4.6">
+    <Name>Death Valley National Park</Name>
+    <Phone>760-786-3200</Phone>
+    <Address NearestAirport="Las Vegas McCarran Airport">
+      <Number>328</Number>
+      <Street>Greenland Boulevard</Street>
+      <City>Death Valley</City>
+      <State>CA</State>
+      <Zip>92328</Zip>
     </Address>
   </NationalPark>
 
   <NationalPark>
-    <Name>Olympic National Park</Name>
-    <Phone>360-565-3130</Phone>
-    <Phone>360-565-3100</Phone>
-    <Address NearestAirport="Seattle-Tacoma International Airport">
-      <Number>3002</Number>
-      <Street>Mount Angeles Road</Street>
-      <City>Port Angeles</City>
-      <State>WA</State>
-      <Zip>98362</Zip>
+    <Name>Mesa Verde National Park</Name>
+    <Phone>970-529-4465</Phone>
+    <Address NearestAirport="Cortez Municipal Airport">
+      <Number>35</Number>
+      <Street>Mesa Top Loop</Street>
+      <City>Mesa Verde</City>
+      <State>CO</State>
+      <Zip>81330</Zip>
+    </Address>
+  </NationalPark>
+
+  <NationalPark>
+    <Name>Sequoia National Park</Name>
+    <Phone>559-565-3341</Phone>
+    <Phone>559-565-3135</Phone>
+    <Address NearestAirport="Fresno Yosemite International Airport">
+      <Number>47050</Number>
+      <Street>Generals Highway</Street>
+      <City>Three Rivers</City>
+      <State>CA</State>
+      <Zip>93271</Zip>
     </Address>
   </NationalPark>
 
